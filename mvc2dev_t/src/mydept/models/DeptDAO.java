@@ -17,7 +17,13 @@ public class DeptDAO {
 		return deptDAO;
 	}
 	
-	private DeptDAO () {}
+	private DeptDAO () {
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
 	
 	public List<DeptDTO> getDeptList() {
 		List<DeptDTO> list = new ArrayList<>();

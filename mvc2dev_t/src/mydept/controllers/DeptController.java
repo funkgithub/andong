@@ -23,7 +23,7 @@ public class DeptController extends HttpServlet {
 		request.setAttribute("list", list);
 		request.setAttribute("title", "부서정보");
 		RequestDispatcher dispatcher = 
-			request.getRequestDispatcher("/WEB-INF/views/list.jsp");
+			request.getRequestDispatcher("/WEB-INF/views/dept.jsp");
 		dispatcher.forward(request, response);
 	}
 }
