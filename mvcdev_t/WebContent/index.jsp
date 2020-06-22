@@ -21,6 +21,7 @@ body {
 	<li>servlet1 <a href="hello">hello</a> - 서블릿 lifecycle</li>
 	<li>servlet2 <a href="hello2">hello2</a></li>
 	<li>employee <a href="employee">employee</a> - view, model분리연습</li>
+	<li>test</li>
 </ol>
 </body>
 </html>
